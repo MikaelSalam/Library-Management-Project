@@ -1,0 +1,78 @@
+/* ---------- GLOBAL STYLES ---------- */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* ✅ Centers all text and inline elements */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ---------- TABLE WRAPPER ---------- */
+table {
+    margin: 20px auto; /* ✅ Centers the table */
+    width: 90%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #0078D7;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* ---------- BUTTONS & LINKS ---------- */
+a, button {
+    background: #0078D7;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* ✅ Allows centering */
+    margin: 5px;
+}
+
+a:hover, button:hover {
+    background: #005fa3;
+}
+
+/* ---------- FORMS ---------- */
+form {
+    width: 60%;
+    margin: 20px auto; /* ✅ Centers the form */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left; /* ✅ Keeps labels aligned nicely */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+}
